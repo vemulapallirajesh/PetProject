@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Dixit Healing Chamber</title>
+</head>
+
+<body>
+    <header>
+        <div class='header'>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Updates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">More Info</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="contact">
+                            <img class="phoneIcon" src="images/PhoneIcon.PNG" />
+                            +91 81234567899
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="btn btn-default Search">
+                <i class="fa fa-search"></i>
+                <input class="form-control Search" type="text" placeholder="Search..">
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="row Home">
+            <div class="col-lg-6 blackopacity">
+                <div class="LeftContent">
+                    <h3>WELCOME TO</h3>
+                    <h1>Dixit Healing Chamber</h1>
+                    <p>Homeopathic clinic of Dr. Shravan Dixit is located in Jublie Hill, Hyderabad. The clinic was
+                        estalished in 2006 and is one
+                        of the most reputed clinic in the vicinty. Guided by the clear vision<span
+                            class="dots">...</span>
+                        <span class="complete"> of the reputed doctor in the town it will al your dental problems</span>
+                        <span class="more">SEE MORE</span></p>
+
+                    <button type="button" class="btn btn-default Mdoc">
+                        Meet the doctor
+                    </button>
+
+                </div>
+            </div>
+            <div class="col-lg-6 Right">
+                <div class="rightContent">
+                    <nav>
+                        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                role="tab" aria-controls="nav-home" aria-selected="true">Book Appointment</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                role="tab" aria-controls="nav-profile" aria-selected="false">Have an enquiry?</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="bookingContent">
+                                <label class="purpose">Purpose</label>
+                                <select class="form-control">
+                                    <option>Consultation</option>
+                                    <option>Check up</option>
+                                    <option>Regular Check up</option>
+                                </select>
+                                <div class="datePicker">
+                                    <div class="datesle">
+                                        <button id="leftDateClick" class="btn btn-default left"
+                                            disabled>&#9668;</button>
+                                        <label id="dateSlot">Today(Wed, 8 May)</label>
+                                        <button id="rightDateClick" class="btn btn-default right">&#9658;</button>
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <td rowspan="3" class="slot">
+                                                <img src="images/morning.JPG"><br>
+                                                <label>Morning</label>
+                                            </td>
+                                            <td id="1000AM" class="slot">10:00 AM</td>
+                                            <td id="1030AM" class="slot">10:30 AM</td>
+                                            <td id="1100AM" class="slot">11:00 AM </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td id="1130AM" class="slot">11:30 AM</td>
+                                            <td id="1200PM" class="slot">12:00 PM</td>
+                                            <td id="1230PM" class="slot">12:30 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td id="0100PM" class="slot">01:00 PM</td>
+                                            <td id="0130PM" class="slot">01:30 PM</td>
+                                            <td id="0200PM" class="slot">02:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="3" class="slot">
+                                                <img src="images/evening.png"><br>
+                                                <label>Evening</label>
+                                            </td>
+                                            <td id="0230PM" class="slot">02:30 PM</td>
+                                            <td id="0300PM" class="slot">03:00 PM</td>
+                                            <td id="0330PM" class="slot">03:30 PM</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td id="0400PM" class="slot">04:00 PM</td>
+                                            <td id="0430PM" class="slot">04:30 PM</td>
+                                            <td id="0500PM" class="slot">05:00 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td id="0530PM" class="slot">05:30 PM</td>
+                                            <td id="0600PM" class="slot">06:00 PM</td>
+                                            <td id="0630PM" class="slot">06:30 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="3" class="slot">
+                                                <img src="images/night.png"><br><br>
+                                                <label>&nbsp;&nbsp;Night</label>
+                                            </td>
+                                            <td id="0700PM" class="slot">07:00 PM</td>
+                                            <td id="0730PM" class="slot">07:30 PM</td>
+                                            <td id="0800PM" class="slot">08:00 PM</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td id="0830PM" class="slot">08:30 PM</td>
+                                            <td id="0900PM" class="slot">09:00 PM</td>
+                                            <td id="0930PM" class="slot">09:30 PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td id="1000PM" class="slot">10:00 PM</td>
+                                            <td id="1030PM" class="slot">10:30 PM</td>
+                                            <td id="1100PM" class="slot">11:00 PM</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <button type="button" id="continue" class="btn btn-default Con" disabled>
+                                    CONTINUE
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            Have an enquiry?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,411 @@
+.header{
+    border-top-style: solid;
+    border-top-color: #2bbbad !important;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+   }
+   
+   .phoneIcon{
+    width: 20px;
+   }
+   .contact{
+    border: 2px solid grey;
+    border-radius: 25px;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 167px;
+   }
+   li.nav-item {
+        font-weight: 500;
+        padding-right: 10px;
+   }
+   #nav-profile{
+       min-height: 540px;
+   }
+   .banner{
+    background-image: url(images/banner.jpg);
+    /* height: 98.7%; */
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   body, html {
+    height: 96.8%;
+   }
+   .btn.btn-default.Search {
+    float: right;
+    margin-top: -55px;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 1px solid grey;
+    border-right: 1px solid white;
+    }
+
+    button.btn.btn-default.Mdoc {
+        background-color: white;
+        border-radius: 20px;
+        color: darkgray;
+        font-weight: bolder; 
+        position: relative;
+    }
+
+    button.btn.btn-default.Con:disabled {
+        background-color: grey;
+    }
+    .form-control.Search {
+        width:0;
+        display: inline-block !important;
+        padding: 2px 2px;
+        padding-left: 6px;
+        border:0px !important;
+        box-shadow: 0 0 0 0 white;
+    }
+
+    button.btn.btn-default.Con {
+        background-color: #2bbbad;
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        margin-top:10px;
+       
+    }
+
+    .fa.fa-search{
+        color: grey;
+    }
+    .row.Home{
+        height: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .LeftContent{
+        margin-top: 25%;
+        margin-left: 25%;
+        margin-right: 5%;
+        max-width: 700px;
+    }
+    
+    .rightContent{
+        margin-top: 18%;
+        margin-left:15%;
+        margin-right: 10%;
+        margin-bottom: 10.4%;
+        max-width: 490px;
+        background-color: white;
+    }
+    
+.col-lg-6.blackopacity{
+    position: relative;
+}
+.col-lg-6.blackopacity:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3)
+}
+    .LeftContent p{
+        text-align: justify;
+        position: relative;
+        color: white;
+    }
+    .LeftContent h3{
+        font-size: 20px;
+        letter-spacing: 10px;
+        position: relative;
+        color: white;
+    }
+    .LeftContent h1{
+        font-size: 65px;
+        position: relative;
+        color: white;
+    }
+    .complete{
+        display:none;
+        position: relative;
+        color: white;
+    }
+    .slot.active.selected{
+        color:white;
+        background-color: #2bbbad;
+    }
+    .more{
+        color:#2bbbad;
+        cursor: pointer;
+        text-decoration: underline;
+        font-weight: 600;
+        position: relative;
+    }
+    .more{
+        
+        font-weight: 600;
+        
+    }
+    @media (min-width: 768px){
+        .container {
+            max-width: 960px !important;
+        }
+        .contact {
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+        }
+    }
+  
+    @media only screen and (min-device-width: 576px) and (max-device-width: 768px)  {
+        .container {
+            max-width: 740px !important;
+        }
+        .datePicker .datesle .btn.btn-default.right{
+            float:right;
+            width: 10% !important;
+            
+        }
+        .datePicker .datesle .btn.btn-default.left{
+            
+            width: 10% !important;
+            
+        }
+        .dateSlot{
+            width: 80% !important;
+        }
+        .slot {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+    @media (min-width: 992px){
+    html {
+        /* overflow: hidden; */
+    }
+}
+    @media (min-width: 576px){
+        .rightContent {
+            margin-left: 5%;
+        }
+    }
+    @media (min-width: 576px) and (max-width: 768px)  {
+        .rightContent {
+            margin-left: 15%;
+        }
+    }
+    @media (min-width: 992px){
+        .contact {
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+        }
+        
+    }
+    and (max-width: 1124px)  {
+        .rightContent {
+            margin-left: 8%;
+        }
+    }
+    @media (max-width: 992px){
+        .LeftContent{
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 10%;
+        }
+        .btn.btn-default.Search{
+            margin-top: -49px;
+        }
+        .rightContent {
+            margin-top: 10%;
+            margin-left: 25%;
+        }
+        .LeftContent {
+            margin-top: 10%;
+        }
+        
+    }
+    .project-tab {
+padding: 10%;
+margin-top: -8%;
+}
+.form-control{
+border: 1.4px solid #2bbbad !important;
+border-radius: 10px !important;
+}
+
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+color: #2bbbad !important;
+background-color: transparent;
+border-color: transparent transparent #f3f3f3;
+border-bottom: 3px solid !important;
+font-size: 16px;
+font-weight: bold;
+}
+#nav-tab{
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+#nav-tab .nav-item.nav-link{
+color: darkgrey;
+font-weight: bold;
+}
+.bookingContent{
+padding: 15px;
+padding-top: 20px;
+}
+
+.select_box{
+width: 200px;
+overflow: hidden;
+border: 1px solid #000;
+position: relative;
+padding: 10px 0;
+}
+.select_box:after{
+width: 0; 
+height: 0; 
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+border-top: 6px solid #2bbbad;
+position: absolute;
+top: 40%;
+right: 5px;
+content: "";
+z-index: 98;
+}
+.select_box select{
+width: 220px;
+border: 0;
+position: relative;
+z-index: 99;
+background: none;
+}
+.purpose{
+position: absolute;
+margin-left: 12px;
+margin-top: -12px;
+z-index: 100;
+color: #2bbbad;
+background: white;
+padding-left: 3px;
+padding-right: 3px;
+font-size: 14px;
+font-weight: 600;
+}
+.form-control{
+position: relative;
+z-index: 1;
+}
+.datePicker{
+width: 100%;
+margin-top: 10px;
+border: 1px solid lightgray;
+border-radius: .25rem;
+}
+.slot img{
+width: 80px;
+}
+.slot label{
+font-weight: 500;
+margin-left: 10px;
+}
+.slot {
+padding-left: 22.6px;
+padding-right: 22.6px;
+border: 1px solid lightgray;
+font-weight: 300;
+padding-top: 5px;
+padding-bottom: 5px;
+cursor: pointer;
+position: relative;
+
+}
+.tooltiptext::after {
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+margin-left: -5px;
+margin-bottom: 10px;
+border-width: 5px;
+border-style: solid;
+border-color: black transparent transparent transparent;
+
+}
+.slot .tooltiptext {
+visibility: hidden;
+width: 140px;
+background-color: white;
+font-weight: 600;
+color: #2bbbad;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+margin-bottom: 5px;
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+bottom: 100%;
+left: 50%;
+margin-left: -60px;
+font-size: 14px;
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.slot:hover .tooltiptext {
+visibility: visible;
+}
+.datePicker .datesle .btn.btn-default.left{
+color: #2bbbad;
+width: 10%;
+font-size: 22px;
+background-color: whitesmoke;
+border: 2px solid lightgray;
+padding: 10px 0px;
+padding-top: 12px;
+margin: 0px;
+float: left;
+}
+.datePicker .datesle .btn.btn-default.right{
+color: #2bbbad;
+width: 10%;
+float: right;
+font-size: 22px;
+background-color: whitesmoke;
+border: 2px solid lightgray;
+padding: 10px 0px;
+padding-top: 12px;
+margin: 0px;
+}
+.datePicker .datesle label{
+     width: 80%;
+text-align: center;
+border-top: 1px solid lightgray;
+border-bottom: 1px solid lightgray;
+padding-top: 12px;
+padding-bottom: 18px;
+margin-bottom: 0px;
+padding-left: 1px;
+background-color: white;
+}
+/* .datesle {
+
+} */
+.datesle label{
+font-weight: 500;
+font-size: 18px;
+}
+.col-lg-6.Right{
+padding-right: 0px;
+padding-left: 0px;
+}
+#leftDateClick:disabled{
+color: grey;
+}
+
+.slot.notactive {
+color: lightgray;
+text-decoration: line-through;
+cursor: auto;
+}
